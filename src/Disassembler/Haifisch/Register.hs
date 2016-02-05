@@ -224,4 +224,4 @@ putFRegBits F15 = putWord8 4 0x0f
 putFRegBits _ = undefined
 
 putMRegBits :: MRegister -> Data.Binary.Bits.Put.BitPut ()
-putMRegBits = 
+putMRegBits = undefined
